@@ -1,0 +1,1 @@
+sudo docker run --rm -t --net=host -v `pwd`:/slides astefanutti/decktape http://localhost:35729 slides.pdf
